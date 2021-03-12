@@ -5,9 +5,7 @@ function Tile ({title, children, image, description }) {
         <section>
             <h2>{title}</h2>
                 {children}
-
-            {image ? <img src={image} alt={description} /> : ''}
-
+            {image && <img src={image} alt={description} />}
         </section>
     );
 }

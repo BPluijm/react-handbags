@@ -19,11 +19,9 @@ function App() {
           <Button
           name="to the collection"
           />
-
           <Button
           name="shop all bags"
           />
-
           <Button
           name="pre-order"
           disable="disabled"
@@ -62,17 +60,14 @@ function App() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis dicta exercitationem fuga hic magnam natus omnis quos recusandae voluptas!</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cupiditate distinctio, facilis fugit incidunt minima molestiae possimus quisquam quos sapiente.</p>
             </Tile>
-
             <Tile
                 image={brand}
                 description="brand"
             />
-
              <Tile
                  image={our_story}
                  description="our story"
              />
-
             <Tile title="Our story">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid, architecto cum delectus dolorem, doloremque enim explicabo fugiat iste itaque laborum laudantium, necessitatibus nulla praesentium quam quisquam sit unde vitae.</p>
             </Tile>
